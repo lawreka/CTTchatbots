@@ -1,0 +1,56 @@
+body{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1em;
+  padding-bottom: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  color: cyan;
+}
+.text-box{
+  width: 59%;
+  height: 80vh;
+  margin-left: 39%;
+  padding-top: 5%;
+}
+.header{
+  padding: 2%;
+  text-align: center;
+}
+.intro{
+  padding: 5%;
+}
+.bigtext{
+  font-size:3em;
+}
+.medtext{
+  font-size:1.7em;
+}
+.text{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 1.2em;
+}
+#top{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#theimage{
+  width: 69%;
+  height: 25vh;
+  z-index: -1;
+}
+.hidden{
+  display:none;
+}
+.position2{
+  position: fixed;
+  left: 10;
+  top: 20%;
+}
+.imgsize{
+  width:100%;
+}
