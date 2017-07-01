@@ -10,57 +10,49 @@ var waypoint = new Waypoint({
     $("#theimage").removeClass("hidden");
     $("#theimage").addClass("position2");
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/ELIZA.png'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/eliza.jpg'>");
   }
 });
 var waypoint = new Waypoint({
   element: $("#text2"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/Jabberwacky.png'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/jabberwacky.jpg'>");
   }
 });
 var waypoint = new Waypoint({
   element: $("#text3"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/ALICE.jpg'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/alice.jpg'>");
   }
 });
 var waypoint = new Waypoint({
   element: $("#text4"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/SmarterChild.png')>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/smarterchild.jpg')>");
   }
 });
 var waypoint = new Waypoint({
   element: $("#text5"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/APPSTORE.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Cleverbot_Logo.jpg'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/appstorecleverbot.jpg'>");
   }
 });
 var waypoint = new Waypoint({
   element: $("#text6"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/WhatsApp.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Kik.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Siri.png'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/whatsappkiksiri.jpg'>");
   }
 });
 var waypoint = new Waypoint({
   element: $("#text7"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/WeChat.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Line.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Snapchat.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/FBmessenger.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/iMessage.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/IBMWatson.png'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/wechatlinesnapchat.jpg'>");
   }
 });
 var waypoint = new Waypoint({
@@ -74,7 +66,7 @@ var waypoint = new Waypoint({
   element: $("#text9"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/AmazonAlexa.png'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/alexa.jpg'>");
 }
 });
 var waypoint = new Waypoint({
@@ -88,20 +80,13 @@ var waypoint = new Waypoint({
   element: $("#text11"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/WhatsApp.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/FBmessenger.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Line.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Viber.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/kakaotalk.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/WeChat.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Tay AI.jpg'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/top6andtay.jpg'>");
   }
 });
 var waypoint = new Waypoint({
   element: $("#text12"),
   handler: function(){
     $("#theimage").empty();
-    $("#theimage").append("<img class='imgsize'  src='imgs/Bot.png'>");
-    $("#theimage").append("<img class='imgsize'  src='imgs/Chat.png'>");
+    $("#theimage").append("<img class='imgsize'  src='imgs/botchat.jpg'>");
   }
 });
