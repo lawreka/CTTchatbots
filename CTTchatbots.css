@@ -7,6 +7,7 @@ body{
 }
 a{
   color: cyan;
+  text-decoration: none;
 }
 .text-box{
   width: 59%;
